@@ -4,7 +4,7 @@
     "name": "{{ cookiecutter.theme_name }}",
     "author": "{{ cookiecutter.full_name }}",
     "website": "{{ cookiecutter.website }}",
-    "license": "{{ cookiecutter.license }}",
+    "license": "BSD License",
     "description": "{{ cookiecutter.description }}",
     "version": "{{ cookiecutter.version }}",
     "preview": "preview.png"
