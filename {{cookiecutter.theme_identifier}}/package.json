@@ -2,8 +2,8 @@
   "name": "flaskbb-theme-{{ cookiecutter.theme_name.lower().replace(' ', '-') }}",
   "description": "{{ cookiecutter.description }}",
   "version": "{{ cookiecutter.version }}",
-  "license": "BSD-3-Clause",
-  "author": "{{ cookiecutter.full_name }} <{{ cookiecutter.email }}>",
+  "license": "{{ cookiecutter.license }}",
+  "author": "{{ cookiecutter.author_name }} <{{ cookiecutter.email }}>",
   "url": "{{ cookiecutter.website }}",
   "private": true,
   "repository": {

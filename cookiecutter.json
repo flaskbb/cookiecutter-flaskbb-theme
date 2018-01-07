@@ -1,11 +1,12 @@
 {
-    "full_name": "Your Name",
-    "email": "Your email address (eq. you@example.com)",
-    "theme_name": "Theme Name",
+    "author_name": "Your Name",
+    "email": "you@example.org",
+    "theme_name": "foobar",
     "theme_identifier": "{{ cookiecutter.theme_name.lower().replace(' ', '_') }}",
     "description": "A description of the theme",
     "repository": "https://github.com/your_name/your_theme_repo",
-    "website": "http://flaskbb.org",
+    "website": "https://flaskbb.org",
     "version": "0.1.0",
+    "license": ["MIT License", "BSD License", "GPLv3", "Apache Software License 2.0", "Not open source"],
     "_extensions": ["jinja2_time.TimeExtension"]
 }
